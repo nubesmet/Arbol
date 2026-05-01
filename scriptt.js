@@ -2,7 +2,7 @@
 
 
 // Cargar el SVG y animar los corazones
-fetch('Img/treelove.svg')
+fetch('treelove.svg')
   .then(res => res.text())
   .then(svgText => {
     const container = document.getElementById('tree-container');
