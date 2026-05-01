@@ -101,7 +101,7 @@ function showSignature() {
     dedication.appendChild(signature);
   }
   let firma = getURLParam('firma');
-  signature.textContent = firma ? decodeURIComponent(firma) : "Con amor, Zero";
+  signature.textContent = firma ? decodeURIComponent(firma) : "Con amor, Jacob";
   signature.classList.add('visible');
 }
 
@@ -160,7 +160,7 @@ function showCountdown() {
     let eventSeconds = Math.max(0, Math.floor((eventDiff / 1000) % 60));
 
     container.innerHTML =
-      `Llevamos juntos: <b>${days}</b> días<br>` +
+      `Llevamos juntos: 294 días<br>` +
       `Nuestro aniversario: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
     container.classList.add('visible');
   }
